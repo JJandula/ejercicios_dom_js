@@ -10,7 +10,7 @@ const albums = [
   "Iron Fist",
 ];
 
-listUl = document.createElement("ul")
+const listUl = document.createElement("ul")
 document.body.appendChild(listUl)
 
 for (const album of albums) {
